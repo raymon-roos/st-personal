@@ -2,7 +2,7 @@
 
 This project exists to house my personal patched version of [st][1] and make it easily
 accessible for all my devices in the future and gain familiarity with github. Original
-[readme][2] included [below][#st - simple terminal].
+[readme][2] included below.
 
 [1]: https://st.suckless.org/ "st homepage"
 [2]: https://git.suckless.org/st/ "st sourcecode"
