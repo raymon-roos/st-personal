@@ -6,7 +6,7 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 static char *font = "Source Code Pro:style=Regular,Medium:pixelsize=12:antialias=true";
-static int borderpx = 2;
+static int borderpx = 0;
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -97,7 +97,7 @@ unsigned int tabspaces = 8;
 static const char *colorname[] = {
 
   /* 8 normal colors */
-  [0] = "#181a1b", /* hard contrast: #1d2021 / soft contrast: #32302f patch default: #282828 */
+  [0] = "#1d2021", /* hard contrast: #1d2021 / soft contrast: #32302f patch default: #282828 */
   [1] = "#cc241d", /* red     */
   [2] = "#98971a", /* green   */
   [3] = "#d79921", /* yellow  */
