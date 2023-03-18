@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "CaskaydiaCove Nerd Font:style=Regular:size=9:antialias=true";
+static char *font = "FantasqueSansMono Nerd Font:style=Regular:size=5";
 static int borderpx = 0;
 
 /*
