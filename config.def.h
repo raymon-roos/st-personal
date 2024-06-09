@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "FantasqueSansMono Nerd Font:style=Regular:size=5";
+static char *font = "CaskaydiaCove Nerd Font:style=Regular";
 static int borderpx = 0;
 
 /*
@@ -65,7 +65,7 @@ static unsigned int blinktimeout = 800;
 /*
  * thickness of underline and bar cursors
  */
-static unsigned int cursorthickness = 2;
+static unsigned int cursorthickness = 1;
 
 /*
  * bell volume. It must be a value between -100 and 100. Use 0 for disabling
@@ -96,24 +96,24 @@ unsigned int tabspaces = 8;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
   /* 8 normal colors */
-  [0] = "#1d2021", /* hard contrast: #1d2021 / soft contrast: #32302f patch default: #282828 */
-  [1] = "#cc241d", /* red     */
-  [2] = "#98971a", /* green   */
-  [3] = "#d79921", /* yellow  */
-  [4] = "#458588", /* blue    */
-  [5] = "#b16286", /* magenta */
-  [6] = "#689d6a", /* cyan    */
-  [7] = "#a89984", /* white   */
+  [0] = "#20222b", /* black */
+  [1] = "#ff5c57", /* red     */
+  [2] = "#5af78e", /* green   */
+  [3] = "#f3f99d", /* yellow  */
+  [4] = "#57c7ff", /* blue    */
+  [5] = "#ff6ac1", /* magenta */
+  [6] = "#9aedfe", /* cyan    */
+  [7] = "#f1f1f0", /* white   */
 
   /* 8 bright colors */
-  [8]  = "#928374", /* black   */
-  [9]  = "#fb4934", /* red     */
-  [10] = "#b8bb26", /* green   */
-  [11] = "#fabd2f", /* yellow  */
-  [12] = "#83a598", /* blue    */
-  [13] = "#d3869b", /* magenta */
-  [14] = "#8ec07c", /* cyan    */
-  [15] = "#ebdbb2", /* white   */
+  [8]  = "#686868", /* black   */
+  [9]  = "#ff5c57", /* red     */
+  [10] = "#5af78e", /* green   */
+  [11] = "#f3f99d", /* yellow  */
+  [12] = "#5c5cff", /* blue    */
+  [13] = "#ff6ac1", /* magenta */
+  [14] = "#9aedfe", /* cyan    */
+  [15] = "#eff0eb", /* white   */
 };
 
 /*
@@ -132,7 +132,7 @@ static unsigned int defaultrcs = 257;
  * 6: Bar ("|")
  * 7: Snowman ("☃")
  */
-static unsigned int cursorshape = 4;
+static unsigned int cursorshape = 6;
 
 /*
  * Default columns and rows numbers
